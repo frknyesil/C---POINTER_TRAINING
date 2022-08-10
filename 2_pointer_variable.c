@@ -10,6 +10,7 @@ int main()
     */
     
     int param;
+    //int* ptr1 = param; 
     ptr1 = &param; //Get address of "param".
     *ptr1 = 1; //"param" = 1.
     
